@@ -76,7 +76,7 @@ html
 .header__item
 {
     margin-right: 47px;
-    box-shadow: inset 0px 2px rgb(72, 97, 75);
+    box-shadow: inset 0px 2px rgb(92, 87, 87);
 }
 .header__item:last-child
 {
@@ -95,7 +95,7 @@ html
 }
 .intro
 {
-    height: 100vh;
+    min-height: 120vh;
     background: url(../img/background.jpg) no-repeat;
     background-size: cover;
     padding-top: 150px;
@@ -131,28 +131,58 @@ html
     color: rgb(255, 255, 255);
     margin-bottom: 5px;
     text-align: center;
-}
-.tittle__uslug-name
-{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    color: rgb(177, 169, 169);
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
 }
 mark {
     color: white;
     background-color: #808080;
     background: transparent;
 }
-.title__list
+/* new section */
+.box__style
 {
-    text-align: center;
-    color: rgb(202, 196, 196);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
 }
-.title__item-name
+.uslug__box
 {
+    width: 319px;
+    height: 400px;
     font-size: 25px;
-    font-weight: 400;
-    margin-top: 40px;
+    border: 4mm ridge rgb(92, 87, 87);
+    box-shadow: 0px 2px 20px rgba(21,24,36,0.15993);
+    text-align: center;
+}
+.uslug__name
+{
+    color:rgb(159, 214, 236);
+    font-size: 30px;
+    font-weight:700;
+    padding-top: 10px;
+    align-self: center;
+}
+.uslug__price
+{
+    padding-top: 130px;
+    font-size: 25px;
+    font-weight:700;
+    color:rgb(177, 169, 169);
+    font-variant: small-caps slashed-zero;
+}
+.uslug__button 
+{
+    align-self: flex-end;
+    background-color: rgb(159, 214, 236);
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+    position:relative;
+    top:85px;
+    border-radius: 20px;
+    padding:15px;
+}
+.uslug__button :hover, .uslug__button :active{
+    opacity: 75%;
 }
