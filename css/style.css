@@ -1,36 +1,47 @@
 /* roboto-regular - cyrillic_latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* roboto-700 - cyrillic_latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  /* roboto-900 - cyrillic_latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-900 - cyrillic_latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/roboto-v30-cyrillic_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-html
-{
+    src: url('../fonts/roboto-v30-cyrillic_latin-900.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
     box-sizing: border-box;
 }
-*, *::before, *::after{
+
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
-.body
-{
+
+.body {
     font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
@@ -38,70 +49,71 @@ html
     font-weight: normal;
     color: black;
 }
-.wrapper
-{
+
+.wrapper {
     max-width: 1377px;
     margin: 0 auto;
 }
 
-.header
-{
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-.header__wrapper
-{
+.header__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 20px;
 }
-.header__logo-name
-{
+
+.header__logo-name {
     color: white;
     margin-right: 785px;
     margin-bottom: 11px;
     font-style: large;
     font-size: 30px;
-}   
-.header__list
-{
+}
+
+.header__list {
     display: flex;
     flex-wrap: wrap;
 }
-.header__item
-{
+
+.header__item {
     margin-right: 47px;
     box-shadow: inset 0px 2px rgb(92, 87, 87);
 }
-.header__item:last-child
-{
+
+.header__item:last-child {
     margin-right: 0;
 }
-.header__link
-{
+
+.header__link {
     font-size: 24px;
     font-weight: 400;
     line-height: 130%;
     text-decoration: none;
     color: white;
 }
-.header__link:hover, .header__link:focus, .header__link:active{
+
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
     opacity: 75%;
 }
-.intro
-{
-    min-height: 120vh;
+
+.intro {
+    min-height: 100%;
     background: url(../img/background.jpg) no-repeat;
     background-size: cover;
     padding-top: 150px;
 }
-.intro__title
-{
+
+.intro__title {
     font-size: 45px;
     font-weight: 900;
     line-height: 130%;
@@ -109,24 +121,24 @@ html
     margin-bottom: 25px;
     padding-left: 20px
 }
-.tittle__text
-{
+
+.tittle__text {
     padding-left: 30px;
-    max-width:1000px;
+    max-width: 1000px;
     font-size: 25px;
-    font-weight:700;
+    font-weight: 700;
     line-height: 130%;
     color: rgb(177, 169, 169);
     margin-bottom: 56px;
 }
-.tit_uslug
-{
+
+.tit_uslug {
     text-align: left;
 }
-.tittle__uslug
-{
-    font-size:40px;
-    font-weight:700;
+
+.tittle__uslug {
+    font-size: 40px;
+    font-weight: 700;
     line-height: 130%;
     color: rgb(255, 255, 255);
     margin-bottom: 5px;
@@ -134,55 +146,297 @@ html
     margin-bottom: 30px;
     padding-bottom: 10px;
 }
+
 mark {
     color: white;
     background-color: #808080;
     background: transparent;
 }
+
 /* new section */
-.box__style
-{
+.box__style {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto;
 }
-.uslug__box
-{
+
+.uslug__box {
     width: 319px;
     height: 400px;
     font-size: 25px;
     border: 4mm ridge rgb(92, 87, 87);
-    box-shadow: 0px 2px 20px rgba(21,24,36,0.15993);
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
     text-align: center;
 }
-.uslug__name
-{
-    color:rgb(159, 214, 236);
+
+.uslug__name {
+    color: rgb(255, 255, 255);
     font-size: 30px;
-    font-weight:700;
+    font-weight: 700;
     padding-top: 10px;
     align-self: center;
 }
-.uslug__price
-{
+
+.uslug__price {
     padding-top: 130px;
     font-size: 25px;
-    font-weight:700;
-    color:rgb(177, 169, 169);
+    font-weight: 700;
+    color: rgb(184, 174, 174);
     font-variant: small-caps slashed-zero;
 }
-.uslug__button 
-{
+
+.uslug__button {
     align-self: flex-end;
-    background-color: rgb(159, 214, 236);
-    color:rgb(0, 0, 0);
+    background-color: white;
+    color: rgb(0, 0, 0);
     font-weight: 700;
-    position:relative;
-    top:85px;
+    position: relative;
+    top: 85px;
     border-radius: 20px;
-    padding:15px;
+    padding: 15px;
 }
-.uslug__button :hover, .uslug__button :active{
+
+.uslug__button :hover,
+.uslug__button :active {
     opacity: 75%;
+}
+
+.feedback {
+    background: url(../img/jhfashfjsa.jpeg);
+    padding-top: 100px;
+}
+
+.styling {
+    max-width: 1377px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+}
+
+.tittle__feedback {
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    transform: translateY(-132%);
+    background-color: rgb(77, 75, 75);
+}
+
+.feedbacks__nums {
+    width: 1377px;
+    height: 735px;
+}
+
+.feedback__1 {
+    color: #fff;
+    max-width: 300px;
+    max-height: 100px;
+    padding-top: 42px;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 125px;
+
+}
+
+.feedback__1--url {
+    width: 468px;
+    height: 63px;
+    flex-shrink: 0;
+    background: url(..//img/image\ 1.jpg) no-repeat;
+    color: #fff;
+    border: 3px solid #000000;
+    opacity: 0;
+    margin-left: 95px;
+    /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s;
+    /*Скорость перехода состояния элемента*/
+}
+
+.feedback__1:hover+.feedback__1--url {
+    opacity: 1;
+    transition: 1s;
+}
+
+.feedback__2 {
+    color: #fff;
+    padding-top: 105px;
+    font-size: 35px;
+    text-align: right;
+    padding-right: 150px;
+}
+
+.feedback__2--url {
+    width: 461px;
+    height: 70px;
+    flex-shrink: 0;
+    background: url(..//img/image\ 2.jpg) no-repeat;
+    color: #fff;
+    border: 3px solid #000000;
+    opacity: 0;
+    margin-right: 101px;
+    float: right;
+    /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s;
+    /*Скорость перехода состояния элемента*/
+}
+
+.feedback__2:hover+.feedback__2--url {
+    opacity: 1;
+    transition: 1s;
+}
+
+.feedback__3 {
+    max-width: 300px;
+    max-height: 100px;
+    color: #fff;
+    padding-top: 42px;
+    font-size: 35px;
+    text-align: left;
+    padding-left: 125px;
+
+}
+
+.feedback__3--url {
+    width: 464px;
+    height: 119px;
+    flex-shrink: 0;
+    background: url(..//img/image\ 4.jpg) no-repeat;
+    color: #fff;
+    border: 3px solid #000000;
+    opacity: 0;
+    margin-left: 95px;
+    /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s;
+    /*Скорость перехода состояния элемента*/
+}
+
+.feedback__3:hover+.feedback__3--url {
+    opacity: 1;
+    transition: 1s;
+}
+.feedback__3:hover, .feedback__3:active,.feedback__3:focus
+{
+    background: green;
+}
+
+.feedback__4 {
+    color: #fff;
+    padding-top: 105px;
+    font-size: 35px;
+    text-align: right;
+    padding-right: 150px;
+}
+
+.feedback__4--url {
+    width: 438px;
+    height: 96px;
+    flex-shrink: 0;
+    background: url(..//img/image\ 3.jpg) no-repeat;
+    color: #fff;
+    border: 3px solid #000000;
+    opacity: 0;
+    margin-right: 101px;
+    float: right;
+    /*Элемент полностью прозрачный (невидимый)*/
+    transition: 1s;
+    /*Скорость перехода состояния элемента*/
+}
+
+.feedback__4:hover,
+:active+.feedback__4--url {
+    opacity: 1;
+    transition: 1s;
+}
+
+
+
+
+/* NEW CONN */
+.connection {
+    /*background: url(../img/аыфаыфпп.jpg);*/
+    background-color: black;
+}
+
+.constyle {
+    width: 1377px;
+    height: 635px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+}
+
+.title__con {
+    color: white;
+    width: 100%;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    transform: translateY(-20%);
+    /*background-color: rgb(77, 75, 75);*/
+}
+
+.con__form--info-user
+{
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+    font-size: 35px;
+    top: 175px;
+    color: white;
+}
+
+.con-form__style {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.con-form__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*position: relative;*/
+}
+
+.con-form__field {
+    width: 300px;
+    background-color: grey;
+    border: 0;
+    border: 2px 2px 2px 2px;
+    font-weight: 500;
+    font-size: 25px;
+    color: red;
+    margin-top: 300px;
+    border: 0.2em solid #ffffff;
+
+}
+.con-form__field::placeholder
+{
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    opacity: 0.2;
+}
+
+.search-form__submit
+{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+}
+.search-form__submit:hover,.search-form__submit:focus,.search-form__submit:active
+{
+    background-color: grey;
 }
