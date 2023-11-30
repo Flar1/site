@@ -269,11 +269,10 @@ mark {
     height: 63px;
     background: url(..//img/image\ 1.jpg) no-repeat;
     color: #fff;
-    border: 3px solid #000000;
+    border: 5px solid #f5aaaa;
     opacity: 0;
-    /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s;
-    /*Скорость перехода состояния элемента*/
+
 }
 
 .feedback__1:hover+.feedback__1--url {
@@ -291,11 +290,9 @@ mark {
     height: 70px;
     background: url(..//img/image\ 2.jpg) no-repeat;
     color: #fff;
-    border: 3px solid #000000;
+    border: 5px solid #f5aaaa;
     opacity: 0;
-    /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s;
-    /*Скорость перехода состояния элемента*/
 }
 
 .feedback__2:hover+.feedback__2--url {
@@ -315,11 +312,9 @@ mark {
     height: 119px;
     background: url(..//img/image\ 4.jpg) no-repeat;
     color: #fff;
-    border: 3px solid #000000;
+    border: 5px solid #f5aaaa;
     opacity: 0;
-    /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s;
-    /*Скорость перехода состояния элемента*/
 }
 
 .feedback__3:hover+.feedback__3--url {
@@ -337,11 +332,9 @@ mark {
     height: 96px;
     background: url(..//img/image\ 3.jpg) no-repeat;
     color: #fff;
-    border: 3px solid #000000;
+    border: 5px solid #f5aaaa;
     opacity: 0;
-    /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s;
-    /*Скорость перехода состояния элемента*/
 }
 
 .feedback__4:hover+.feedback__4--url {
@@ -502,7 +495,7 @@ mark {
     font-size: 40px;
     font-weight: 700;
     padding-right: 40%;
-    padding-top: 70px;
+    margin-top: 180px;
 }
 
 /* dsajkdsa*/
@@ -538,12 +531,24 @@ mark {
     position: relative;
     top: 44px;
     color: rgb(116, 113, 107);
+    text-decoration: none;
+    transition: 1s;
+}
+.podvall_text--left2:hover {
+    opacity: 75%;
+    color: white;
+}
+.podvall_left3:hover{
+    opacity: 75%;
+    color:white
 }
 .podvall_left3
 {
     position: relative;
     top: 48px;
     color: rgb(116, 113, 107);      
+    text-decoration: none;
+    transition: 1s;
 }
 .podvall_text--right3
 {
