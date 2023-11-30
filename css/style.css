@@ -55,10 +55,8 @@ html {
     margin: 0 auto;
 }
 
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
+.header {   
+    background: black;
     width: 100%;
 }
 
@@ -197,13 +195,14 @@ mark {
     padding: 15px;
 }
 
-.uslug__button :hover,
-.uslug__button :active {
+.uslug__button:hover {
+    transition: 1s;
     opacity: 75%;
+    background-color: grey;
 }
 
 .feedback {
-    background: url(../img/jhfashfjsa.jpeg);
+    background: url(../img/1614285056_12-p-chernii-fon-oboi-na-rabochii-15.jpg);
     padding-top: 100px;
 }
 
@@ -223,8 +222,7 @@ mark {
     text-align: center;
     padding-top: 30px;
     position: absolute;
-    transform: translateY(-132%);
-    background-color: rgb(77, 75, 75);
+    transform: translateY(-136%);
 }
 
 .feedbacks__nums {
@@ -319,10 +317,6 @@ mark {
     opacity: 1;
     transition: 1s;
 }
-.feedback__3:hover, .feedback__3:active,.feedback__3:focus
-{
-    background: green;
-}
 
 .feedback__4 {
     color: #fff;
@@ -347,19 +341,16 @@ mark {
     /*Скорость перехода состояния элемента*/
 }
 
-.feedback__4:hover,
-:active+.feedback__4--url {
+.feedback__4:hover+.feedback__4--url {
     opacity: 1;
     transition: 1s;
 }
 
 
 
-
 /* NEW CONN */
 .connection {
-    /*background: url(../img/аыфаыфпп.jpg);*/
-    background-color: black;
+    background: url(../img/аыфаыфпп.jpg);
 }
 
 .constyle {
@@ -413,7 +404,7 @@ mark {
     border: 2px 2px 2px 2px;
     font-weight: 500;
     font-size: 25px;
-    color: red;
+    color: black;
     margin-top: 300px;
     border: 0.2em solid #ffffff;
 
@@ -440,3 +431,120 @@ mark {
 {
     background-color: grey;
 }
+
+/* dsalod;sa */
+
+.BackMoStyle
+{
+    min-width: 1377px;
+    min-height: 300px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+.tittle__back
+{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+.backM__textforuser
+{
+    color: #FFF;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 160%; 
+}
+.Adress
+{
+    display: flex;
+}
+.adstyle
+{
+    background-color: black;
+    padding-left: 23%;
+    max-width: 1377px;
+    height: 480px;
+}
+
+.title__adress
+{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.adress__title
+{
+    background-color: #000000;
+    width: 100%;
+    font-size: 20px;
+    color:white
+}
+.adress__text
+{
+    text-align: center;
+    padding-right: 40%;
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.adress__text--comp
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: 40%;
+    padding-top: 70px;
+}
+
+/* dsajkdsa*/
+
+.podval
+{
+    width: 100%;
+    background-color:#1C1B20 ;
+}
+
+.podval__style
+{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+
+.podvall_text--right
+{
+    font-weight: 700;
+}
+.podvall_text--right2
+{
+    padding-left: 11%;
+}
+.podvall_text--left2
+{
+    position: relative;
+    top: 44px;
+    color: rgb(116, 113, 107);
+}
+.podvall_left3
+{
+    position: relative;
+    top: 48px;
+    color: rgb(116, 113, 107);      
+}
+.podvall_text--right3
+{
+    margin-top: 50px;
+}
+

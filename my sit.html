@@ -22,28 +22,28 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="#!" class="header__link">главная</a>
+                            <a href="#glavnaya" class="header__link">главная</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">о проекте</a>
+                            <a href="#proect" class="header__link">о проекте</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">прайс</a>
+                            <a href="#prisik" class="header__link">прайс</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">отзывы</a>
+                            <a href="#fedbackich" class="header__link">отзывы</a>
                         </li>
                 </nav>
             </div>
         </div>
     </header>
     <main class="main">
-        <section class="intro">
+        <section class="intro" id = "glavnaya">
             <div class="wrapper">
                 <h1 class="intro__title">
                     Mos
                 </h1>
-                <p class="tittle__text">
+                <p class="tittle__text" id = "proect">
                     Cамая <mark>крупная</mark> компания в России для продвижения.<br>
                     Что можно продвинуть у нас?<br> <mark>Всё!</mark><br>
                     Аккаунт в социальных сетях, свой бренд, музыкальный альбом, книгу и т.д.<br>
@@ -52,7 +52,7 @@
                 <p class="tittle__uslug">
                     Какие у нас есть услуги?
                 </p>
-                <div class="box__style">
+                <div class="box__style" id = "prisik">
                     <div class="uslug__box">
                         <p class="uslug__name">
                             Продвижение
@@ -89,9 +89,9 @@
                 </div>
             </div>
         </section>
-        <section class="feedback">
+        <section class="feedback" id = "fedbackich">
             <div class="styling">
-                <h2 class="tittle__feedback">
+                <h2 class="tittle__feedback" name = "fsdf">
                     Отзывы
                 </h2>
                 <div class="feedbacks__nums">
@@ -118,26 +118,99 @@
                 </div>
             </div>
         </section>
-        <section class = "connection">
+        <section class="connection">
             <div class="constyle">
-                <h3 class = "title__con">
+                <h3 class="title__con" id = "svyaz">
                     Обратная связь
                 </h3>
                 <p class="con__form--info-user">
                     Поможем определиться с товаром из нашего каталога
                 </p>
                 <form class="con-form__send">
-                    <fieldset class = "con-form__style">
+                    <fieldset class="con-form__style">
                         <p class="con-form__info">
                             <input type="text" class="con-form__field" placeholder="Номер телефона">
                             <input type="text" class="con-form__field" placeholder="Имя">
                         </p>
-                        <button type = "submit" class = "search-form__submit">Отправить</button>
+                        <button type="submit" class="search-form__submit">Отправить</button>
                     </fieldset>
                 </form>
             </div>
         </section>
+        <section class="BackMoney">
+            <div class="BackMoStyle">
+                <h4 class="tittle__back" id = "backtoback">
+                    Возврат средств
+                </h4>
+                <p class="backM__textforuser">
+                    Если человека не устроил приход в течение 3 дней, средства можно вернуть, <br>далее работаем
+                    безвозвратно
+                </p>
+            </div>
+        </section>
+        <section class="Adress">
+            <div class="adstyle">
+                <h5 class = "title__adress">
+                    Как нас найти?
+                </h5>
+                <iframe class="map"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A8ab6aaaadd6aef17c1973946f96fd092f1b1a04b455ef852696b484b89fced1e&amp;source=constructor"
+                    width="800" height="421" frameborder="0"></iframe>
+            </div>
+            <div class="adress__title">
+                <p class="adress__text">
+                    Мы находимся по адреcу <br> Красный проспект 70
+                </p>
+                <p class="adress__text--comp">
+                    Ждем вас!
+                </p>
+            </div>
+        </section>
     </main>
+    <footer class="podval">
+        <div class="wrapper">
+            <div class="podval__style">
+                <div class="podval__left">
+                    <p class="podvall_text--left">
+                        Контактная информация
+                    </p>
+                    <p class="podvall_text--left">
+                        +7(932)-893-28-93
+                    </p>
+                    <p class="podvall_text--left1">
+                        +7(913)-855-32-14
+                    </p>
+                    <a class="podvall_text--left2" href="#svyaz">
+                        Обратная связь<br>
+                    </a>
+                    <a class="podvall_left3" href = "#backtoback">
+                        Возврат средств
+                    </a>
+                </div>
+                <div class="podval__center">
+                    <img src="img/mos-letter-logo-design-with-polygon-shape-mos-polygon-and-cube-shape-logo-design-mos-hexagon-logo-template-white-and-black-colors-mos-monogram-business-and-real-estate-logo-vector 1.jpg"
+                        alt="MoS" class="podval__logo-link">
+                </div>
+                <div class="podval__right">
+                    <p class="podvall_text--right">
+                        Соц. сети
+                    </p>
+                    <p class="podvall_text--right1">
+                        Telegram
+                    </p>
+                    <p class="podvall_text--right2">
+                        VK
+                    </p>
+                    <p class="podvall_text--right3">
+                        Вопросы и предложения
+                    </p>
+                    <p class="podvall_left4">
+                        mos@gmali.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
