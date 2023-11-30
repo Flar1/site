@@ -51,7 +51,7 @@ html {
 }
 
 .wrapper {
-    max-width: 1377px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -63,15 +63,18 @@ html {
 .header__wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
-
+.header__logo{
+    display: flex;
+    align-items: center;
+}
 .header__logo-name {
     color: white;
-    margin-right: 785px;
-    margin-bottom: 11px;
+    margin-left: 10px;
     font-style: large;
     font-size: 30px;
 }
@@ -189,13 +192,18 @@ mark {
     background-color: white;
     color: rgb(0, 0, 0);
     font-weight: 700;
-    position: relative;
-    top: 85px;
+    margin-top: 85px;
+    box-sizing: border-box;
+    display: inline-block;
     border-radius: 20px;
     padding: 15px;
+    text-decoration: none;
+    
 }
 
+
 .uslug__button:hover {
+    cursor: pointer;
     transition: 1s;
     opacity: 75%;
     background-color: grey;
@@ -204,6 +212,7 @@ mark {
 .feedback {
     background: url(../img/1614285056_12-p-chernii-fon-oboi-na-rabochii-15.jpg);
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .styling {
@@ -225,31 +234,43 @@ mark {
     transform: translateY(-136%);
 }
 
+
+.feedback_item p {
+    display: inline-block;
+}
+
 .feedbacks__nums {
-    width: 1377px;
-    height: 735px;
+    padding-top: 50px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.feedback_item:nth-child(2){
+    align-self: flex-end;
+    text-align: right;
+}
+
+.feedback_item:nth-child(4){
+    align-self: flex-end;
+    text-align: right;
 }
 
 .feedback__1 {
     color: #fff;
     max-width: 300px;
     max-height: 100px;
-    padding-top: 42px;
     font-size: 35px;
-    text-align: left;
-    padding-left: 125px;
-
 }
 
 .feedback__1--url {
     width: 468px;
     height: 63px;
-    flex-shrink: 0;
     background: url(..//img/image\ 1.jpg) no-repeat;
     color: #fff;
     border: 3px solid #000000;
     opacity: 0;
-    margin-left: 95px;
     /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s;
     /*Скорость перехода состояния элемента*/
@@ -262,22 +283,16 @@ mark {
 
 .feedback__2 {
     color: #fff;
-    padding-top: 105px;
     font-size: 35px;
-    text-align: right;
-    padding-right: 150px;
 }
 
 .feedback__2--url {
     width: 461px;
     height: 70px;
-    flex-shrink: 0;
     background: url(..//img/image\ 2.jpg) no-repeat;
     color: #fff;
     border: 3px solid #000000;
     opacity: 0;
-    margin-right: 101px;
-    float: right;
     /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s;
     /*Скорость перехода состояния элемента*/
@@ -292,22 +307,16 @@ mark {
     max-width: 300px;
     max-height: 100px;
     color: #fff;
-    padding-top: 42px;
     font-size: 35px;
-    text-align: left;
-    padding-left: 125px;
-
 }
 
 .feedback__3--url {
     width: 464px;
     height: 119px;
-    flex-shrink: 0;
     background: url(..//img/image\ 4.jpg) no-repeat;
     color: #fff;
     border: 3px solid #000000;
     opacity: 0;
-    margin-left: 95px;
     /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s;
     /*Скорость перехода состояния элемента*/
@@ -320,22 +329,16 @@ mark {
 
 .feedback__4 {
     color: #fff;
-    padding-top: 105px;
     font-size: 35px;
-    text-align: right;
-    padding-right: 150px;
 }
 
 .feedback__4--url {
     width: 438px;
     height: 96px;
-    flex-shrink: 0;
     background: url(..//img/image\ 3.jpg) no-repeat;
     color: #fff;
     border: 3px solid #000000;
     opacity: 0;
-    margin-right: 101px;
-    float: right;
     /*Элемент полностью прозрачный (невидимый)*/
     transition: 1s;
     /*Скорость перехода состояния элемента*/
@@ -350,11 +353,11 @@ mark {
 
 /* NEW CONN */
 .connection {
-    background: url(../img/аыфаыфпп.jpg);
+    background: url(../img/more_volny_chernyj_120771_2560x1440.jpg);
 }
 
 .constyle {
-    width: 1377px;
+    max-width: 1377px;
     height: 635px;
     margin: 0 auto;
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
@@ -436,10 +439,9 @@ mark {
 
 .BackMoStyle
 {
-    min-width: 1377px;
     min-height: 300px;
     margin: 0 auto;
-    background-color: #000000;
+    background: url(../img/tekstura_chernyj_grafit_153177_2560x1440.jpg);
 }
 .tittle__back
 {
@@ -465,7 +467,7 @@ mark {
 }
 .adstyle
 {
-    background-color: black;
+    background: black;
     padding-left: 23%;
     max-width: 1377px;
     height: 480px;
@@ -548,3 +550,56 @@ mark {
     margin-top: 50px;
 }
 
+.resizeble:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.visible {
+    position: fixed;
+    height: 175px;
+    width: 950px;
+    z-index: 10;
+    top: 35%;
+    left: calc(50% - 475px);
+}
+
+.layout {
+    display: block;
+    background-color: #000000;
+    opacity: 0.5;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 1450px) {
+    .map
+    {
+        width: 600px;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    .map
+    {
+        width: 500px;
+    }
+}
+
+@media (max-width: 900px) {
+    .map
+    {
+        width: 300px;
+    }
+}
+
+@media (max-width: 780px) {
+    .box__style{
+        flex-direction: column;
+        gap:20px;
+    }
+}
