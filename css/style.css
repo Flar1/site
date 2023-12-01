@@ -513,7 +513,7 @@ mark {
     line-height: 150%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
 }
 
