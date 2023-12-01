@@ -13,13 +13,13 @@ const showPopup = (target) => {
         layout.classList.add('layout');
 
         if (id == 1) {
-            popup.src = "..//img/image\ 1.jpg";
+            popup.src = "./img/image\ 1.jpg";
         }else if (id == 2){
-            popup.src = "..//img/image\ 2.jpg";
+            popup.src = "./img/image\ 2.jpg";
         }else if (id == 3){
-            popup.src = "..//img/image\ 4.jpg";
+            popup.src = "./img/image\ 4.jpg";
         }else if (id == 4){
-            popup.src = "..//img/image\ 3.jpg";
+            popup.src = "./img/image\ 3.jpg";
         }
         
         root.appendChild(popup);
